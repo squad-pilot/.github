@@ -1,0 +1,16 @@
+name: Task
+description: Setup, chores, research or anything that is not a feature or a bug
+type: Task
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What
+    validations:
+      required: true
+  - type: textarea
+    id: done
+    attributes:
+      label: Done when
+    validations:
+      required: true
